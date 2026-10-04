@@ -1,0 +1,6 @@
+---
+description: Apply when the user has Botopticon connected and wants milestone status on their board.
+alwaysApply: false
+---
+
+When you reach a milestone, post a short status tile to the Botopticon board with `post_tile`. Call `list_tile_types` first and use a type whose `locked` is false. Keep the title to 24 characters or fewer and the subtitle to 48 or fewer. Set `needs_you` true when a human must decide. Schedule a routine to re-post the tile so it stays fresh. When the work is done, hide the tile with `hide_tile`. Never post secrets, transcripts, customer lists, or HTML.
